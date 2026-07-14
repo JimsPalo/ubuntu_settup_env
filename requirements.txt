@@ -1,0 +1,74 @@
+# System Requirements
+# Ubuntu 22.04 LTS — X11 session
+# These packages are installed automatically by install-packages.sh
+# No Python packages are required.
+
+# ── Core tools ───────────────────────────────────────────────────
+curl
+wget
+git
+htop
+btop
+neofetch
+micro
+xdotool
+wmctrl
+xclip
+xdg-utils
+fuse3
+
+# ── GNOME customisation ──────────────────────────────────────────
+gnome-tweaks
+gnome-shell-extensions
+gnome-themes-extra
+dconf-editor
+
+# ── Screenshot ───────────────────────────────────────────────────
+flameshot
+
+# ── Python runtime (no pip packages) ────────────────────────────
+# PPA: ppa:deadsnakes/ppa
+python3.12
+python3.12-dev
+python3.12-venv
+python3.12-tk
+
+# ── Office suite ─────────────────────────────────────────────────
+# Repo: https://download.onlyoffice.com/repo/debian
+onlyoffice-desktopeditors
+
+# ── Clipboard ────────────────────────────────────────────────────
+copyq
+
+# ── Touchpad gestures (X11 only) ─────────────────────────────────
+# PPA: ppa:touchegg/stable
+touchegg
+
+# ── Flatpak ───────────────────────────────────────────────────────
+# For Touché (touchegg settings GUI, Flathub-only — no native .deb)
+# App: com.github.joseexposito.touche, installed --user in 08-gestures.sh
+flatpak
+
+# ── Google Drive ─────────────────────────────────────────────────
+# rclone installed via official script (not apt) — see 07-google-drive.sh
+
+# ── Battery management ───────────────────────────────────────────
+tlp
+tlp-rdw
+
+# ── VS Code ──────────────────────────────────────────────────────
+# Repo: https://packages.microsoft.com/repos/code
+code
+
+# ── System optimisation ──────────────────────────────────────────
+preload
+
+# ── Browser ───────────────────────────────────────────────────────
+# Repo: https://packages.microsoft.com/repos/edge
+microsoft-edge-stable
+
+# ── Mail ──────────────────────────────────────────────────────────
+thunderbird
+
+# ── Pomodoro timer ────────────────────────────────────────────────
+gnome-shell-pomodoro

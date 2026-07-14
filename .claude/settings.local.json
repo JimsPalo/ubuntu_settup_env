@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(update-alternatives --display python3)",
+      "Read(//usr/bin/**)",
+      "Bash(find / -xdev -name \"_gi.cpython-*\")"
+    ]
+  }
+}

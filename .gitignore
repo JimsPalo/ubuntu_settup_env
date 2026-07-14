@@ -1,0 +1,18 @@
+# Logs generated during setup
+setup-errors.log
+*.log
+
+# Editor temp files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# rclone OAuth tokens (contain credentials — never commit)
+rclone.conf
+*.token
+
+# Secrets / credentials
+*.env
+*.secret
+credentials.*
